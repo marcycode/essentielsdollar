@@ -1,0 +1,36 @@
+.hiring{
+    transition: all 0.3s ease-in-out;
+
+}
+.hiring:hover{
+    transform: translateY(-0.2em);
+    color: yellow;
+}
+
+ul li {
+    margin-right: 120px;
+  }
+  
+  
+  /* Update the font size of the dropdown items */
+  
+  .signin{
+    margin-left: 2em;
+    align-items: end;
+    justify-content: flex-end;
+  }
+  .animatey{
+    transition: all 0.3s ease-in-out;
+  }
+  .animatey:hover{
+    background-color: #FBCC06;
+    
+  }
+  .colorchanger{
+    transition: all 0.3s ease-in-out;
+  }
+  .colorchanger:hover{
+    color: #FBCC06;
+    
+    
+  }

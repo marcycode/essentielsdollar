@@ -1,0 +1,18 @@
+.fullcontent{
+    margin-bottom: 10em;
+}
+
+.try{
+   
+    cursor: pointer;
+    color:green;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.try:hover{
+    transform: translateY(-0.3em);
+   
+}

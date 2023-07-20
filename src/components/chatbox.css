@@ -1,0 +1,36 @@
+/* styles.css (or your preferred CSS file) */
+.chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    max-width: 300px;
+    width: 100%;
+    z-index: 999; /* Make sure the chatbox is displayed over other components */
+  }
+  
+  .chatbox-messages {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .message {
+    padding: 5px 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+  
+  .message.user {
+    background-color: #f0f0f0;
+    text-align: right;
+  }
+  
+  .message.bot {
+    background-color: #e0e0e0;
+  }
+  
+  /* Add your preferred styling for the input and button */
+  

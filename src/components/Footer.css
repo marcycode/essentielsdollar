@@ -1,0 +1,70 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .hero-btn{
+    width: 100%;
+    height: 70%;
+   
+
+    text-decoration: none;
+    color: black;
+    border: transparent;
+    
+    background: white;
+    padding: 5px 10px ;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+.hero-btn:hover{
+    transform: translateY(-0.2em);
+    border: 1px sold rgb(255, 255, 255);
+    background:rgb(13, 196, 13);
+    color:white;
+    border-radius: 1em;
+   
+    border: transparent;
+    
+
+   
+    transition: all 0.5s ease-in-out;
+
+}
+
+.address{
+  transition: all 0.3s ease-in-out;
+
+}
+.address:hover{
+  color:rgb(13, 196, 13);
+  cursor:pointer;
+ 
+}
+
+
+.phonenumber{
+  transition: all 0.3s ease-in-out;
+
+}
+.phonenumber:hover{
+  color:rgb(13, 196, 13);
+  
+  cursor: pointer;
+}
+
+.icons{
+  transition: all 0.3s ease-in-out;
+  
+}
+.icons:hover{
+  transform: translateY(-0.3em);
+  color:rgb(13, 196, 13);
+  cursor:pointer;
+}
